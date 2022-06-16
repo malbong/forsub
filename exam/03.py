@@ -28,7 +28,7 @@ while True:
     word_list.append(words)
 
     if count == 1:
-        if word[-1] == 'e':
+        if word[-1] == words[0]:
             print("끝말잇기 성공")
         else:
             print(friends, "님", "끝말잇기 실패. 다음번에 커피사세요.")
